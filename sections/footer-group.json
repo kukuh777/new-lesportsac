@@ -1,1 +1,69 @@
-{"name":"t:sections.footer.name","type":"footer","sections":{"footer":{"type":"footer","blocks":{"52f98b72-636d-4c6d-aefb-205fab4f23c5":{"type":"link_list","settings":{"heading":"","menu":"footer"}},"ed596018-c296-4865-bb8c-5c33ad34767c":{"type":"link_list","settings":{"heading":"","menu":"footer-bottom-menu"}}},"block_order":["52f98b72-636d-4c6d-aefb-205fab4f23c5","ed596018-c296-4865-bb8c-5c33ad34767c"],"settings":{"color_scheme":"background-1","newsletter_enable":true,"newsletter_heading":"Subscribe to our emails","enable_follow_on_shop":true,"show_social":true,"enable_country_selector":true,"enable_language_selector":true,"payment_enable":true,"show_policy":false,"margin_top":0,"padding_top":36,"padding_bottom":36}}},"order":["footer"]}
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "75949808-e2ae-48f3-94b0-ee81f71109dd": {
+      "type": "footer-logo",
+      "blocks": {
+        "sections--21545490055470__75949808-e2ae-48f3-94b0-ee81f71109dd-image-1": {
+          "type": "image",
+          "settings": {
+            "logo_width": 100,
+            "logo_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "sections--21545490055470__75949808-e2ae-48f3-94b0-ee81f71109dd-image-1"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "max_width": 1260,
+        "padding_top": 40,
+        "padding_bottom": 50
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "52f98b72-636d-4c6d-aefb-205fab4f23c5": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "footer"
+          }
+        },
+        "ed596018-c296-4865-bb8c-5c33ad34767c": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "footer-bottom-menu"
+          }
+        }
+      },
+      "block_order": [
+        "52f98b72-636d-4c6d-aefb-205fab4f23c5",
+        "ed596018-c296-4865-bb8c-5c33ad34767c"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "newsletter_enable": true,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": true,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": true,
+        "show_policy": false,
+        "margin_top": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "75949808-e2ae-48f3-94b0-ee81f71109dd",
+    "footer"
+  ]
+}

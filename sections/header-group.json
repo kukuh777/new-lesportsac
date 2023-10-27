@@ -1,1 +1,75 @@
-{"name":"t:sections.header.name","type":"header","sections":{"announcement-bar":{"type":"announcement-bar","blocks":{"announcement-bar-0":{"type":"announcement","settings":{"text":"Free US Ground Shipping with $80+ Purchase \/ Canada $15 \/ Mexico $18 \/ Australia $20 USD Flat-Rates","link":""}}},"block_order":["announcement-bar-0"],"settings":{"color_scheme":"background-1","show_line_separator":true,"show_social":false,"auto_rotate":false,"change_slides_speed":5,"enable_country_selector":false,"enable_language_selector":false}},"header":{"type":"header","settings":{"logo_position":"middle-left","menu":"main-menu","menu_type_desktop":"dropdown","sticky_header_type":"on-scroll-up","show_line_separator":true,"color_scheme":"background-1","menu_color_scheme":"background-1","enable_country_selector":true,"enable_language_selector":true,"mobile_logo_position":"center","margin_bottom":0,"padding_top":20,"padding_bottom":20}}},"order":["announcement-bar","header"]}
+{
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-bar-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free US Ground Shipping with $80+ Purchase \/ Canada $15 \/ Mexico $18 \/ Australia $20 USD Flat-Rates",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement-bar-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
+    "11264241-3dfb-432e-b888-233542aba24d": {
+      "type": "header-logo",
+      "blocks": {
+        "sections--21545490088238__11264241-3dfb-432e-b888-233542aba24d-image-1": {
+          "type": "image",
+          "settings": {
+            "logo_width": 100,
+            "logo_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "sections--21545490088238__11264241-3dfb-432e-b888-233542aba24d-image-1"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "max_width": 1260,
+        "padding_top": 40,
+        "padding_bottom": 50
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo_position": "middle-left",
+        "menu": "main-menu",
+        "menu_type_desktop": "dropdown",
+        "sticky_header_type": "on-scroll-up",
+        "show_line_separator": true,
+        "color_scheme": "background-1",
+        "menu_color_scheme": "background-1",
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "mobile_logo_position": "center",
+        "margin_bottom": 0,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "11264241-3dfb-432e-b888-233542aba24d",
+    "header"
+  ]
+}
