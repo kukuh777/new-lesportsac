@@ -7,7 +7,7 @@
   }
 {% endstyle %}
 
-<div class="footer__footer-logo">
+<div class="footer-logo">
   {%- if request.page_type == 'index' -%}
     <h1 class="footer__heading">
   {%- endif -%}
@@ -15,7 +15,7 @@
     {% if block.type == 'image' %}
       <a href="{{ routes.root_url }}" class="footer-logo-link link link--text focus-inset">
         {%- if settings.logo != blank -%}
-          <div class="footer-logo-wrapper footer-block-image {{ block.settings.logo_alignment }}">
+          <div class="header__heading-logo-wrapper footer-block-image {{ block.settings.logo_alignment }}">
             {%- assign logo_alt = settings.logo.alt | default: shop.name | escape -%}
             {% capture widths %}{{ block.settings.logo_width }}{% endcapture %}
             {% capture logo_width %}{{ block.settings.logo_width }}%{% endcapture %}
