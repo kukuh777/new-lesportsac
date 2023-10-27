@@ -1,5 +1,12 @@
 {% style %}
   @media (min-width: 1024px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+      padding-right: {{ section.settings.padding_right | times: 0.75 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+      padding-left: {{ section.settings.padding_left | times: 0.75 | round: 0 }}px;
+    }
+    
     .footer-logo {
       max-width: {{ section.settings.max_width }}px;
       margin: 0 auto;
@@ -7,7 +14,7 @@
   }
 {% endstyle %}
 
-<div class="footer-logo">
+<div class="footer-logo section-{{ section.id }}-padding">
   {%- if request.page_type == 'index' -%}
     <h1 class="footer__heading">
   {%- endif -%}
