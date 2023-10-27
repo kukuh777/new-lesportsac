@@ -442,6 +442,9 @@
         },
         "label": "Image shape",
         "info": "Standard-styled cards have no borders when an image shape is active."
+      },
+      "width": {
+        "max_width": "Maximum Width"
       }
     },
     "announcement-bar": {
