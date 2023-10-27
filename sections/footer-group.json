@@ -33,23 +33,15 @@
             "heading": "",
             "menu": "footer"
           }
-        },
-        "ed596018-c296-4865-bb8c-5c33ad34767c": {
-          "type": "link_list",
-          "settings": {
-            "heading": "",
-            "menu": "footer-bottom-menu"
-          }
         }
       },
       "block_order": [
-        "52f98b72-636d-4c6d-aefb-205fab4f23c5",
-        "ed596018-c296-4865-bb8c-5c33ad34767c"
+        "52f98b72-636d-4c6d-aefb-205fab4f23c5"
       ],
       "settings": {
         "color_scheme": "background-1",
         "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_heading": "",
         "enable_follow_on_shop": true,
         "show_social": true,
         "enable_country_selector": true,
