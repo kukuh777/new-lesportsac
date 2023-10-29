@@ -1066,8 +1066,8 @@
           "powered_link_enable": {
             "label": "Enable Powered by Link"
           },
-          "position": {
-            "label": "Position",
+          "horizontal_position": {
+            "label": "Horizontal Position",
             "options__1": {
               "label": "Center"
             },
@@ -1078,6 +1078,18 @@
               "label": "Flex Start"
             },
             "options__4": {
+              "label": "Flex End"
+            }
+          },
+          "vertical_position": {
+            "label": "Vertical Position",
+            "options__1": {
+              "label": "Center"
+            },
+            "options__2": {
+              "label": "Flex Start"
+            },
+            "options__3": {
               "label": "Flex End"
             }
           }
