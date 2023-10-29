@@ -1067,6 +1067,7 @@
             "label": "Enable Powered by Link"
           },
           "position": {
+            "label": "Position",
             "options__1": {
               "label": "Center"
             },
