@@ -48,7 +48,7 @@
         "show_social": true,
         "enable_country_selector": true,
         "enable_language_selector": true,
-        "payment_enable": true,
+        "payment_enable": false,
         "show_policy": false,
         "max_width": 1260,
         "margin_top": 0,
