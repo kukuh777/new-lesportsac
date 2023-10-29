@@ -1050,6 +1050,14 @@
         },
         "enable_follow_on_shop": {
           "label": "Enable Follow on Shop"
+        },
+        "copyright": {
+          "descriptions": {
+            "label": "Descriptions"
+          },
+          "powered_link": {
+            "label": "Powered by Link"
+          }
         }
       }
     },
