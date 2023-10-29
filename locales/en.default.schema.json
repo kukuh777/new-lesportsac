@@ -1065,6 +1065,20 @@
           },
           "powered_link_enable": {
             "label": "Enable Powered by Link"
+          },
+          "position": {
+            "options__1": {
+              "label": "Center"
+            },
+            "options__2": {
+              "label": "Space Between"
+            },
+            "options__3": {
+              "label": "Flex Start"
+            },
+            "options__4": {
+              "label": "Flex End"
+            }
           }
         }
       }
