@@ -1059,6 +1059,9 @@
           "descriptions": {
             "label": "Descriptions"
           },
+          "descriptions_width": {
+            "label": "Descriptions Width"
+          },
           "powered_link_enable": {
             "label": "Enable Powered by Link"
           }
