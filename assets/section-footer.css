@@ -11,35 +11,6 @@
   display: block;
 }
 
-@media screen and (max-width: 749px) {
-  .footer .grid {
-    display: block;
-  }
-
-  .footer-block.grid__item {
-    padding: 0;
-    margin: 4rem 0;
-    width: 100%;
-  }
-
-  .footer-block.grid__item:first-child {
-    margin-top: 0;
-  }
-
-  .footer__content-top {
-    padding-bottom: 3rem;
-    padding-left: calc(4rem / var(--font-body-scale));
-    padding-right: calc(4rem / var(--font-body-scale));
-  }
-}
-
-@media screen and (min-width: 750px) {
-  .footer__content-top .grid {
-    row-gap: 6rem;
-    margin-bottom: 0;
-  }
-}
-
 .footer__content-bottom {
   border-top: solid 0.1rem rgba(var(--color-foreground), 0.08);
   padding-top: 3rem;
@@ -54,30 +25,8 @@
   width: 100%;
 }
 
-@media screen and (max-width: 749px) {
-  .footer__content-bottom {
-    flex-wrap: wrap;
-    padding-top: 0;
-    padding-left: 0;
-    padding-right: 0;
-    row-gap: 1.5rem;
-  }
-
-  .footer__content-bottom-wrapper {
-    flex-wrap: wrap;
-    row-gap: 1.5rem;
-    justify-content: center;
-  }
-}
-
 .footer__localization:empty + .footer__column--info {
   align-items: center;
-}
-
-@media screen and (max-width: 749px) {
-  .footer__localization:empty + .footer__column {
-    padding-top: 1.5rem;
-  }
 }
 
 .footer__column {
@@ -94,25 +43,10 @@
   padding-right: 2rem;
 }
 
-@media screen and (min-width: 750px) {
-  .footer__column--info {
-    padding-left: 0;
-    padding-right: 0;
-    align-items: flex-end;
-  }
-}
-
 .footer-block:only-child:last-child {
   text-align: center;
   max-width: 76rem;
   margin: 0 auto;
-}
-
-@media screen and (min-width: 750px) {
-  .footer-block {
-    display: block;
-    margin-top: 0;
-  }
 }
 
 .footer-block:empty {
@@ -128,19 +62,6 @@
 
 .footer-block--newsletter:only-child {
   margin-top: 0;
-}
-
-@media screen and (max-width: 749px) {
-  .footer-block.footer-block--menu:only-child {
-    text-align: left;
-  }
-}
-
-@media screen and (min-width: 750px) {
-  .footer-block--newsletter {
-    flex-wrap: nowrap;
-    justify-content: center;
-  }
 }
 
 .footer-block__heading {
@@ -178,48 +99,87 @@
   max-width: 36rem;
 }
 
-@media screen and (min-width: 750px) {
-  /* Pushes other components to the right of the flexbox */
-  .footer-block__newsletter:not(:only-child) {
-    text-align: left;
-    margin-right: auto;
-  }
+.footer__localization {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  padding: 1rem 1rem 0;
+}
 
-  .footer-block__newsletter:not(:only-child) .footer__newsletter {
-    justify-content: flex-start;
-    margin: 0;
-  }
+.footer__localization:empty {
+  display: none;
+}
 
-  .footer-block__newsletter:not(:only-child) .newsletter-form__message--success {
-    left: auto;
-  }
+.footer__localization h2 {
+  margin: 1rem 1rem 0.5rem;
+  color: rgba(var(--color-foreground), 0.75);
+}
 
-  .footer__follow-on-shop {
-    margin-bottom: 0.4rem;
-  }
-  /* Follow on shop is the first button but it has siblings*/
-  .footer__follow-on-shop:first-child:not(:last-child) {
-    justify-content: flex-start;
-    margin-right: auto;
-    text-align: left;
-  }
-
-  /*
-    All three components are present, email, Follow on Shop, and social icons.
-    Moves the FoS button next to the social icons so they appear grouped together
-  */
-  .footer__follow-on-shop:not(:first-child):not(:last-child) {
-    justify-content: flex-end;
-    text-align: right;
+@media screen and (max-width: 989px) {
+  .footer__localization noscript {
+    width: 100%;
   }
 }
 
+.footer__content-bottom-wrapper--center {
+  justify-content: center;
+}
+
+.footer__copyright {
+  margin-top: 1.5rem;
+}
+
+
 @media screen and (max-width: 749px) {
+  .footer .grid {
+    display: block;
+  }
+
+  .footer-block.grid__item {
+    padding: 0;
+    margin: 4rem 0;
+    width: 100%;
+  }
+
+  .footer-block.grid__item:first-child {
+    margin-top: 0;
+  }
+
+  .footer__content-top {
+    padding-bottom: 3rem;
+    padding-left: calc(4rem / var(--font-body-scale));
+    padding-right: calc(4rem / var(--font-body-scale));
+  }
+
+  .footer__content-bottom {
+    flex-wrap: wrap;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    row-gap: 1.5rem;
+  }
+
+  .footer__content-bottom-wrapper {
+    flex-wrap: wrap;
+    row-gap: 1.5rem;
+    justify-content: center;
+  }
+
+  .footer__localization:empty + .footer__column {
+    padding-top: 1.5rem;
+  }
+
+  .footer-block.footer-block--menu:only-child {
+    text-align: left;
+  }
+
   /*
     On a small screen we want all the items to be centered
     because they will be stacked.
    */
-  .footer-block--newsletter {
+   .footer-block--newsletter {
     display: flex;
     flex-direction: column;
     flex: 1 1 100%;
@@ -240,30 +200,60 @@
 }
 
 @media screen and (min-width: 750px) {
+  .footer__content-top .grid {
+    row-gap: 6rem;
+    margin-bottom: 0;
+  }
+
+  .footer-block {
+    display: block;
+    margin-top: 0;
+  }
+
   .footer-block__newsletter + .footer__list-social {
     margin-top: 0;
   }
-}
 
-.footer__localization {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-  flex-wrap: wrap;
-  padding: 1rem 1rem 0;
-}
+  .footer-block--newsletter {
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
 
-.footer__localization:empty {
-  display: none;
-}
+  /* Pushes other components to the right of the flexbox */
+  .footer-block__newsletter:not(:only-child) {
+    text-align: left;
+    margin-right: auto;
+  }
 
-.footer__localization h2 {
-  margin: 1rem 1rem 0.5rem;
-  color: rgba(var(--color-foreground), 0.75);
-}
+  .footer-block__newsletter:not(:only-child) .footer__newsletter {
+    justify-content: flex-start;
+    margin: 0;
+  }
 
-@media screen and (min-width: 750px) {
+  .footer-block__newsletter:not(:only-child) .newsletter-form__message--success {
+    left: auto;
+  }
+
+  .footer__follow-on-shop {
+    margin-bottom: 0.4rem;
+  }
+
+  /* Follow on shop is the first button but it has siblings*/
+  .footer__follow-on-shop:first-child:not(:last-child) {
+    justify-content: flex-start;
+    margin-right: auto;
+    text-align: left;
+  }
+
+  /*
+    All three components are present, email, Follow on Shop, and social icons.
+    Moves the FoS button next to the social icons so they appear grouped together
+  */
+  .footer__follow-on-shop:not(:first-child):not(:last-child) {
+    justify-content: flex-end;
+    text-align: right;
+  }
+
   .footer__localization {
     padding: 0.4rem 0;
     justify-content: flex-start;
@@ -272,30 +262,11 @@
   .footer__localization h2 {
     margin: 1rem 0 0;
   }
-}
 
-@media screen and (max-width: 989px) {
-  .footer__localization noscript {
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 750px) {
   .footer__payment {
     margin-top: 1.5rem;
   }
-}
 
-.footer__content-bottom-wrapper--center {
-  justify-content: center;
-}
-
-.footer__copyright {
-  text-align: center;
-  margin-top: 1.5rem;
-}
-
-@media screen and (min-width: 750px) {
   /* .footer__content-bottom-wrapper:not(.footer__content-bottom-wrapper--center) .footer__copyright {
     text-align: right;
   }  */
@@ -324,6 +295,12 @@
 @media screen and (min-width: 750px) {
   .footer-block__details-content {
     margin-bottom: 0;
+  }
+
+  .footer__column--info {
+    padding-left: 0;
+    padding-right: 0;
+    align-items: flex-end;
   }
 
   .footer-block__details-content > p,
