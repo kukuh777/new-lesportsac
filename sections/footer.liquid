@@ -13,6 +13,7 @@
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    max-width: {{ section.settings.max_width }}
   }
 
   @media screen and (min-width: 750px) {
@@ -591,7 +592,7 @@
     {
       "type": "range",
       "id": "max_width",
-      "min": 600,
+      "min": 750,
       "max": 1600,
       "step": 10,
       "unit": "px",
