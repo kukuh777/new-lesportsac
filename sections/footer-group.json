@@ -50,12 +50,20 @@
         "enable_language_selector": true,
         "payment_enable": true,
         "show_policy": false,
+        "max_width": 1260,
         "margin_top": 0,
-        "padding_top": 36,
-        "padding_bottom": 36,
+        "padding_top": 0,
+        "padding_right": 40,
+        "padding_bottom": 40,
+        "padding_left": 40,
         "copyright_descriptions_enable": true,
         "copyright_descriptions": "We use our own and third party cookies to improve our services and your shopping experience. If you continue browsing, you are deemed to have accepted our policies.",
-        "copyright_powered_enable": false
+        "copyright_descriptions_width": 55.5,
+        "copyright_powered_enable": false,
+        "copyright_horizontal_position": "space-between",
+        "copyright_vertical_position": "center",
+        "copyright_padding_right": 0,
+        "copyright_padding_left": 0
       }
     }
   },
