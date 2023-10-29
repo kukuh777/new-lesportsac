@@ -276,7 +276,6 @@
 
   .footer__copyright {
     display: flex;
-    justify-content: space-between;
   }
 }
 
