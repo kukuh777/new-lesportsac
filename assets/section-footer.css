@@ -1,5 +1,5 @@
 .footer {
-  border-top: 0.1rem solid rgba(var(--color-foreground), 0.08);
+  /* border-top: 0.1rem solid rgba(var(--color-foreground), 0.08); */
   margin: 0 auto;
 }
 
@@ -8,6 +8,7 @@
 }
 
 .footer__content-top {
+  border-top: solid 0.1rem rgba(var(--color-foreground), 0.08);
   padding-bottom: 5rem;
   display: block;
 }
@@ -276,6 +277,7 @@
 
   .footer__copyright {
     display: flex;
+    justify-content: space-between;
   }
 }
 
