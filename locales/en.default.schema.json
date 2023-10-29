@@ -1053,11 +1053,14 @@
           "label": "Enable Follow on Shop"
         },
         "copyright": {
+          "descriptions_enable": {
+            "label": "Enable Descriptions"
+          },
           "descriptions": {
             "label": "Descriptions"
           },
-          "powered_link": {
-            "label": "Powered by Link"
+          "powered_link_enable": {
+            "label": "Enable Powered by Link"
           }
         }
       }
