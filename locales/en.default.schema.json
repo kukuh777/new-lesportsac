@@ -995,6 +995,9 @@
         }
       },
       "settings": {
+        "country_selector_title": {
+          "label": "Country Selector Title"
+        },
         "newsletter_enable": {
           "label": "Show email signup"
         },
