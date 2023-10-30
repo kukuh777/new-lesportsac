@@ -33,7 +33,7 @@
           "type": "link_list",
           "settings": {
             "heading": "About Us",
-            "heading_menu_enable": true,
+            "heading_menu_enable": false,
             "menu": "footer-top-1"
           }
         },
@@ -41,7 +41,7 @@
           "type": "link_list",
           "settings": {
             "heading": "Customer Service",
-            "heading_menu_enable": true,
+            "heading_menu_enable": false,
             "menu": "footer-top-2"
           }
         },
