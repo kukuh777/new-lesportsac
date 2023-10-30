@@ -1011,7 +1011,7 @@
           "label": "Show email signup"
         },
         "newsletter_heading": {
-          "label": "Heading"
+          "label": "Content"
         },
         "header__1": {
           "content": "Email Signup",
@@ -1084,28 +1084,28 @@
           "horizontal_position": {
             "label": "Horizontal Position",
             "options__1": {
-              "label": "Center"
+              "label": "center"
             },
             "options__2": {
-              "label": "Space Between"
+              "label": "space betweeb"
             },
             "options__3": {
-              "label": "Flex Start"
+              "label": "flex start"
             },
             "options__4": {
-              "label": "Flex End"
+              "label": "flex end"
             }
           },
           "vertical_position": {
             "label": "Vertical Position",
             "options__1": {
-              "label": "Center"
+              "label": "center"
             },
             "options__2": {
-              "label": "Flex Start"
+              "label": "flex start"
             },
             "options__3": {
-              "label": "Flex End"
+              "label": "flex end"
             }
           }
         }
