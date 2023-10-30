@@ -191,6 +191,10 @@
     padding-right: calc(4rem / var(--font-body-scale));
   }
 
+  .footer__content-middle {
+    padding: 24px 0;
+  }
+
   .footer__content-bottom {
     flex-wrap: wrap;
     padding-top: 0;
@@ -241,6 +245,10 @@
   .footer__content-top .grid {
     row-gap: 6rem;
     margin-bottom: 0;
+  }
+
+  .footer__content-middle {
+    padding: 40px 0;
   }
 
   .footer-block {
