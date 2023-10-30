@@ -32,13 +32,21 @@
         "52f98b72-636d-4c6d-aefb-205fab4f23c5": {
           "type": "link_list",
           "settings": {
-            "heading": "",
-            "menu": "footer"
+            "heading": "About Us",
+            "menu": "footer-top-1"
+          }
+        },
+        "165d88ec-b395-4c7a-b38c-b68fcfb87c55": {
+          "type": "link_list",
+          "settings": {
+            "heading": "Customer Service",
+            "menu": "footer-top-2"
           }
         }
       },
       "block_order": [
-        "52f98b72-636d-4c6d-aefb-205fab4f23c5"
+        "52f98b72-636d-4c6d-aefb-205fab4f23c5",
+        "165d88ec-b395-4c7a-b38c-b68fcfb87c55"
       ],
       "settings": {
         "color_scheme": "background-1",
