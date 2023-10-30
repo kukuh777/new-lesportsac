@@ -12,6 +12,12 @@
   display: block;
 }
 
+.footer__content-top .footer-block__details-content .list-menu__item--link {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+}
+
 .footer__content-middle {
   border-top: solid 0.1rem rgba(var(--color-foreground), 0.08);
   display: flex;
@@ -372,12 +378,6 @@
 .footer-block__details-content .list-menu__item--link,
 .copyright__content a {
   color: rgba(var(--color-foreground), 0.75);
-}
-
-.footer-block__details-content .list-menu__item--link {
-  text-transform: uppercase;
-  font-size: 20px;
-  font-weight: 700;
 }
 
 .footer-block__details-content .list-menu__item--active {
