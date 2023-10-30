@@ -38,7 +38,7 @@
 }
 
 .footer__column {
-  width: 100%;
+  width: auto;
   align-items: flex-end;
 }
 
