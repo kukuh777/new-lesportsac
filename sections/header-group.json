@@ -45,7 +45,9 @@
         "full_width": true,
         "max_width": 1260,
         "padding_top": 40,
-        "padding_bottom": 50
+        "padding_right": 50,
+        "padding_bottom": 50,
+        "padding_left": 50
       }
     },
     "header": {
@@ -54,7 +56,7 @@
         "logo_position": "middle-left",
         "menu": "main-menu",
         "menu_type_desktop": "dropdown",
-        "sticky_header_type": "on-scroll-up",
+        "sticky_header_type": "always",
         "show_line_separator": true,
         "color_scheme": "background-1",
         "menu_color_scheme": "background-1",
