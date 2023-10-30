@@ -13,10 +13,22 @@
   padding: 1rem 0;
 }
 
-.localization-form:only-child .button,
-.localization-form:only-child .localization-form__select {
+.localization-form:only-child .button {
   margin: 1rem 1rem 0.5rem;
   flex-grow: 1;
+}
+
+.localization-form:only-child .localization-form__select {
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+
+.localization-form:only-child .localization-form__select span {
+  text-decoration: none;
+}
+
+.localization-form:only-child .localization-form__select svg {
+  display: none;
 }
 
 @media screen and (min-width: 750px) {
@@ -34,21 +46,9 @@
     margin: 0 1rem 0 0;
   }
 
-  .localization-form:only-child .button {
-    margin: 1rem 0;
-  }
-
+  .localization-form:only-child .button,
   .localization-form:only-child .localization-form__select {
-    margin: 0 0 0 20px;
-    padding: 0;
-  }
-
-  .localization-form:only-child .localization-form__select span {
-    text-decoration: none;
-  }
-
-  .localization-form:only-child .localization-form__select svg {
-    display: none;
+    margin: 1rem 0;
   }
 }
 
