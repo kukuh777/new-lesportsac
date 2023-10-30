@@ -134,7 +134,7 @@
 }
 
 .footer-block__newsletter h2 {
-  font-size: 16px;
+  font-size: 14px;
   text-align: left;
 }
 
@@ -372,6 +372,12 @@
 .footer-block__details-content .list-menu__item--link,
 .copyright__content a {
   color: rgba(var(--color-foreground), 0.75);
+}
+
+.footer-block__details-content .list-menu__item--link {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .footer-block__details-content .list-menu__item--active {
