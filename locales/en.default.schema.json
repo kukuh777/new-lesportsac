@@ -961,6 +961,9 @@
             "heading": {
               "label": "Heading"
             },
+            "heading_menu_enable": {
+              "label": "Show heading on desktop"
+            },
             "menu": {
               "label": "Menu",
               "info": "Displays only top-level menu items."
