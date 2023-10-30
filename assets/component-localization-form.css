@@ -23,14 +23,6 @@
   padding: 0;
 }
 
-.localization-form__select span {
-  text-decoration: none;
-}
-
-.localization-form__select svg {
-  display: none;
-}
-
 @media screen and (min-width: 750px) {
   .localization-form {
     padding: 1rem 2rem 1rem 0;
