@@ -19,9 +19,8 @@
   flex-grow: 1;
 }
 
-.single-country img {
-  width: 13px;
-  height: 10px;
+.footer-localization .single-country {
+  display: none;
 }
 
 @media screen and (min-width: 750px) {
