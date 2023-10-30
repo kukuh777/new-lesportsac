@@ -356,6 +356,7 @@
         </localization-form>
       {%- endif -%}
     </div>
+
     <div class="footer__column footer__bottom-menu">
       <ul class="footer-block__details-content list-unstyled">
         {%- for link in block.settings.menu.links -%}
@@ -593,6 +594,11 @@
       "label": "t:sections.footer.settings.enable_country_selector.label"
     },
     {
+      "type": "header",
+      "content": "t:sections.footer.settings.header__5.content",
+      "info": "t:sections.footer.settings.header__6.info"
+    },
+    {
       "type": "text",
       "id": "country_selector_title",
       "default": "Country",
@@ -601,13 +607,8 @@
     {
       "type": "link_list",
       "id": "bottom-menu",
-      "default": "",
+      "default": "main-menu",
       "label": "t:sections.footer.settings.bottom-menu.label"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.footer.settings.header__5.content",
-      "info": "t:sections.footer.settings.header__6.info"
     },
     {
       "type": "checkbox",
