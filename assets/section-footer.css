@@ -74,6 +74,8 @@
 
 .footer-localization {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .footer-localization .localization-form__select.link {
