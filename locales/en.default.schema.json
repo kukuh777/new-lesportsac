@@ -995,6 +995,9 @@
               "label": "Subtext"
             }
           }
+        },
+        "newsletter": {
+          "name": "Newsletter"
         }
       },
       "settings": {
