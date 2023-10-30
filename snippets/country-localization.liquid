@@ -34,8 +34,10 @@
           >
             <span class="localization-form__currency">
               {{ country | image_url: width: 20 | image_tag }}
-              {{- country.currency.iso_code }}
-              {{ country.currency.symbol }}
+              <!--
+                {{- country.currency.iso_code }}
+                {{ country.currency.symbol }}
+              -->
               {{ country.name | prepend: '| ' }}
             </span>
           </a>
