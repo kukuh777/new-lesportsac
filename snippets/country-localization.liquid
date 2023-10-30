@@ -15,8 +15,7 @@
   >
     <span>
       {{ localization.country | image_url: width: 20 | image_tag }}
-      {{- localization.country.currency.iso_code }}
-      {{ localization.country.currency.symbol }} | {{ localization.country.name -}}
+      {{ localization.country.name -}}
     </span>
     {% render 'icon-caret' %}
   </button>
