@@ -1021,6 +1021,9 @@
         "enable_country_selector": {
           "label": "Enable country\/region selector"
         },
+        "contry_selector_title": {
+          "label": "Country Selector Title"
+        },
         "header__5": {
           "content": "Language selector"
         },
