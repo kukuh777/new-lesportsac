@@ -52,12 +52,22 @@
             "heading_menu_enable": false,
             "menu": "footer-top-3"
           }
+        },
+        "a4c18dc5-35ea-4545-8e4c-0fbcc793f95c": {
+          "type": "newsletter",
+          "settings": {
+            "newsletter_enable": true,
+            "newsletter_heading": "",
+            "enable_follow_on_shop": false,
+            "show_social": false
+          }
         }
       },
       "block_order": [
         "52f98b72-636d-4c6d-aefb-205fab4f23c5",
         "165d88ec-b395-4c7a-b38c-b68fcfb87c55",
-        "30639d1a-c05f-4f6e-a3ba-587b52b4ad4f"
+        "30639d1a-c05f-4f6e-a3ba-587b52b4ad4f",
+        "a4c18dc5-35ea-4545-8e4c-0fbcc793f95c"
       ],
       "settings": {
         "color_scheme": "background-1",
