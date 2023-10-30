@@ -28,3 +28,9 @@
   width: 10rem;
   padding: 0.5rem;
 }
+
+.bottom-menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
