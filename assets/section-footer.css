@@ -82,6 +82,13 @@
   text-decoration: none;
 }
 
+.footer-localization .single-country span {
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+  margin-left: 20px;
+}
+
 .footer-localization .single-country svg {
   display: none;
 }
