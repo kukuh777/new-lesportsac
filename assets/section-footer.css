@@ -76,8 +76,8 @@
   display: flex;
 }
 
-.footer-localization .localization-form__select span {
-  text-decoration: unset;
+.footer-localization .localization-form__select.link {
+  text-decoration: none;
 }
 
 .footer-localization .localization-form__select svg {
