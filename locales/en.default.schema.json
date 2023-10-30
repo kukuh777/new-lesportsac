@@ -995,6 +995,9 @@
         }
       },
       "settings": {
+        "bottom-menu": {
+          "label": "Bottom Menu"
+        },
         "country_selector_title": {
           "label": "Country Selector Title"
         },

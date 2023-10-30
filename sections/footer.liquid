@@ -356,6 +356,20 @@
         </localization-form>
       {%- endif -%}
     </div>
+    <div class="footer__column footer__bottom-menu">
+      <ul class="footer-block__details-content list-unstyled">
+        {%- for link in block.settings.menu.links -%}
+          <li>
+            <a
+              href="{{ link.url }}"
+              class="link link--text list-menu__item list-menu__item--link{% if link.active %} list-menu__item--active{% endif %}"
+            >
+              {{ link.title }}
+            </a>
+          </li>
+        {%- endfor -%}
+      </ul>
+    </div>
   </div>
 
   <div
@@ -583,6 +597,12 @@
       "id": "country_selector_title",
       "default": "Country",
       "label": "t:sections.footer.settings.country_selector_title.label"
+    },
+    {
+      "type": "link_list",
+      "id": "bottom-menu",
+      "default": "",
+      "label": "t:sections.footer.settings.bottom-menu.label"
     },
     {
       "type": "header",
