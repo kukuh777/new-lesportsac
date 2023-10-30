@@ -302,3 +302,18 @@ noscript .localization-selector.link {
 .menu-drawer__localization noscript .localization-form__select {
   padding: initial;
 }
+
+/* Customisations for country flags */
+
+.c-disclosure-country .localization-form__select img,
+.c-disclosure-country .disclosure__link img {
+  border-radius: 4px;
+  margin-right: 6px;
+}
+
+.c-disclosure-country .localization-form__select span,
+.c-disclosure-country .localization-form__currency,
+.c-disclosure-country .disclosure__link {
+  display: inline-flex;
+  align-items: center;
+}
