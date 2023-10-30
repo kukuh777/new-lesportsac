@@ -120,6 +120,7 @@
   align-content: center;
   flex-wrap: wrap;
   padding: 1rem 1rem 0;
+  position: unset;
 }
 
 .footer__localization:empty {
