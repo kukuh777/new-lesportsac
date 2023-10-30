@@ -78,17 +78,17 @@
   justify-content: space-between;
 }
 
-/* .footer-localization .localization-form__select.link {
+.footer-localization .single-country .link {
   text-decoration: none;
 }
 
-.footer-localization .localization-form__select svg {
+.footer-localization .single-country svg {
   display: none;
 }
 
 .country-label {
   font-size: 14px;
-} */
+}
 
 @media screen and (min-width: 990px) {
   .footer-block__heading {
