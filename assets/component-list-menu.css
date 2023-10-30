@@ -29,7 +29,7 @@
   padding: 0.5rem;
 }
 
-.bottom-menu ul {
+.footer__bottom-menu ul {
   display: flex;
   align-items: center;
   justify-content: flex-end;
