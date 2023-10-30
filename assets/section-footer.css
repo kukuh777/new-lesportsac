@@ -133,6 +133,11 @@
   flex-grow: 1;
 }
 
+.footer-block__newsletter h2 {
+  font-size: 16px;
+  text-align: left;
+}
+
 .newsletter-form__field-wrapper {
   max-width: 36rem;
 }
