@@ -57,7 +57,7 @@
           "type": "newsletter",
           "settings": {
             "newsletter_enable": true,
-            "newsletter_heading": "",
+            "newsletter_heading": "By signing up, you agree to our <a href=\"\/pages\/privacy-policy\" target=\"_blank\" title=\"Privacy Policy\">Privacy Policy<\/a> and our <a href=\"\/pages\/terms-conditions\" target=\"_blank\" title=\"Terms & Conditions\">Terms and Conditions<\/a>.",
             "enable_follow_on_shop": false,
             "show_social": false
           }
@@ -71,10 +71,6 @@
       ],
       "settings": {
         "color_scheme": "background-1",
-        "newsletter_enable": true,
-        "newsletter_heading": "",
-        "enable_follow_on_shop": true,
-        "show_social": true,
         "enable_country_selector": true,
         "country_selector_title": "Location",
         "bottom-menu": "footer-bottom-menu",
