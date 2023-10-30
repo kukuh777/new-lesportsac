@@ -48,6 +48,7 @@
         "show_social": true,
         "enable_country_selector": true,
         "country_selector_title": "Location",
+        "bottom-menu": "footer-bottom-menu",
         "enable_language_selector": true,
         "payment_enable": false,
         "show_policy": false,
