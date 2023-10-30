@@ -78,7 +78,7 @@
   justify-content: space-between;
 }
 
-.footer-localization .localization-form__select.link {
+/* .footer-localization .localization-form__select.link {
   text-decoration: none;
 }
 
@@ -88,7 +88,7 @@
 
 .country-label {
   font-size: 14px;
-}
+} */
 
 @media screen and (min-width: 990px) {
   .footer-block__heading {
