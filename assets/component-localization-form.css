@@ -13,14 +13,10 @@
   padding: 1rem 0;
 }
 
-.localization-form:only-child .button {
+.localization-form:only-child .button
+.localization-form:only-child .localization-form__select {
   margin: 1rem 1rem 0.5rem;
   flex-grow: 1;
-}
-
-.localization-form:only-child .localization-form__select {
-  margin: 0 0 0 20px;
-  padding: 0;
 }
 
 @media screen and (min-width: 750px) {
