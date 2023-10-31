@@ -71,6 +71,14 @@
   --shadow-visible: var(--media-shadow-visible);
 }
 
+/* Custom Font */
+
+@font-face {
+  font-family: "Alte Haas Grotesk";
+  src: url({{ "AlteHaasGrotesk" | asset_url }}) format("woff");
+  font-style: normal;
+}
+
 /* base */
 
 .no-js:not(html) {
